@@ -1,5 +1,6 @@
 .react-tel-input {
   position: relative;
+  height: 40px;
   width: 100%;
   .flag {
     width: 16px;
@@ -716,7 +717,7 @@
     padding-left: 44px;
     margin-left: 0;
     background: #FFFFFF;
-    border: 1px solid #CACACA;
+    border: 1px solid var(--form-grey);
     border-radius: 3px;
     box-shadow: 0 1px 2px #E3E3E3 inset;
     line-height: 25px;
@@ -724,12 +725,12 @@
     width: 100%;
     &:focus {
       border-color: #42bdff;
-      border-left-color: #cacaca;
+      border-left-color: var(--form-grey);
     }
     &.invalid-number {
       border: 1px solid #d79f9f;
       background-color: #FAF0F0;
-      border-left-color: #cacaca;
+      border-left-color: var(--form-grey);
       &:focus {
         border: 1px solid #d79f9f;
         border-left-color: #cacaca;
@@ -742,8 +743,8 @@
     top: 0;
     bottom: 0;
     padding: 0;
-    background-color: #eaeaea;
-    border: 1px solid #cacaca;
+    background-color: #fff;
+    border: 1px solid var(--form-grey);
     border-radius: 3px 0 0 3px;
     &.open-dropdown {
       background: #fff;
